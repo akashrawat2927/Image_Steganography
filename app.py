@@ -114,7 +114,7 @@ class Embeddor:
                 blue = (blue & (~0x3)) | bits[2]
 
                 # update the mem_image_pixel[i,j]
-                mem_image[i, j, 0] = blueh & Tech
+                mem_image[i, j, 0] = blue
                 mem_image[i, j, 1] = green
                 mem_image[i, j, 2] = red
 
